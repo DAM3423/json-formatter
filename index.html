@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Formatter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="json-formatter-text">JSON Formatter</h1>
+        <div class="toggle-mode-container">
+            <button id="toggleMode">Toggle Dark/Light Mode</button>
+        </div>
+    </nav>
+    <div class="container">
+        <textarea id="jsonInput" placeholder="Paste your JSON here"></textarea>
+        <button id="formatBtn">Format</button>
+        <div id="formattedOutput"></div>
+        <button id="copyBtn" disabled>Copy Formatted JSON</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
